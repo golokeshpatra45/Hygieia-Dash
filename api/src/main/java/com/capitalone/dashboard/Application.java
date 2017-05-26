@@ -28,6 +28,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * Application configuration and bootstrap
  */
 @SpringBootApplication
+//@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
 @EnableSwagger2
 @EnableEncryptableProperties
 public class Application extends SpringBootServletInitializer {
